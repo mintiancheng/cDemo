@@ -3,7 +3,6 @@ int main(){
     int a,b,i,j,c;
     scanf("%d %d",&a,&b);
     c=a*b;
-    //求最小公倍数 
     while(a%b!=0){
         i=a%b;
         a=b;
